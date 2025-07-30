@@ -37,7 +37,7 @@
 	<div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+			<div id="loading-icon"><img src="images/loader.png" alt=""></div>
 		</div>
 	</div>
 	<!-- Preloader End -->
@@ -56,110 +56,148 @@
 					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
+                          <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item">
+                              <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item submenu">
+                              <a class="nav-link" href="" id="lang-toggle">EN 🌐</a>
+                              <ul>
                                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>                              
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
-                                    <ul>                                        
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="project-single.html">Project Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing Plan</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-                                    </ul>
+                                  <a class="nav-link" href="index.html" data-lang="EN">EN <i class="flag-icon flag-icon-gb"></i></a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                             
-                            </ul>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="zh/index.html" data-lang="ZH">ZH <i class="flag-icon flag-icon-cn"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="ru/index.html" data-lang="RU">RU <i class="flag-icon flag-icon-ru"></i></a>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
                         </div>
-
+          
                         <!-- Header Social Box Start -->
                         <div class="header-social-box d-inline-flex">
-                            <!-- Header Social Links Start -->
-                            <div class="header-social-links">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Header Social Links End -->
-
-                            <!-- Header Btn Start -->
-                            <div class="header-btn">
-                                <!-- Toggle Button trigger modal Start -->
-                                <button class="btn btn-popup" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="images/header-btn-dot.svg" alt=""></button>
-                                <!-- Toggle Button trigger modal End -->
-
-                                <!-- Header Sidebar Start -->
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                    
-                                    <div class="offcanvas-body">
-                                        <!-- Header Contact Box Start -->
-                                        <div class="header-contact-box">
-                                            <div class="icon-box">
-                                                <img src="images/icon-phone-accent.svg" alt="">
-                                            </div>
-                                            <div class="header-contact-box-content">
-                                                <h3>phone</h3>
-                                                <p>+123 456 789</p>
-                                            </div>
-                                        </div>
-                                        <!-- Header Contact Box End -->
-
-                                        <!-- Header Contact Box Start -->
-                                        <div class="header-contact-box">
-                                            <div class="icon-box">
-                                                <img src="images/icon-mail-accent.svg" alt="">
-                                            </div>
-                                            <div class="header-contact-box-content">
-                                                <h3>email</h3>
-                                                <p>info@domainname.com</p>
-                                            </div>
-                                        </div>
-                                        <!-- Header Contact Box End -->
-
-                                        <!-- Header Contact Box Start -->
-                                        <div class="header-contact-box">
-                                            <div class="icon-box">
-                                                <img src="images/icon-location-accent.svg" alt="">
-                                            </div>
-                                            <div class="header-contact-box-content">
-                                                <h3>address</h3>
-                                                <p>123 Creative Lane London, SW1A 1AA United Kingdom</p>
-                                            </div>
-                                        </div>
-                                        <!-- Header Contact Box End -->
-
-                                        <!-- Header Social Links Start -->
-                                        <div class="header-social-links sidebar-social-links">
-                                            <h3>stay connected</h3>
-                                            <ul>
-                                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- Header Social Links End -->
-                                    </div>
+                          <!-- Header Social Links Start -->
+                          <div class="header-social-links">
+                            <ul>
+                              <li>
+                                <a href="https://t.me/zumyagency97" target="_blank"><i class="fa-brands fa-brands fa-telegram"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                              </li>
+                              <li>
+                                <a href="https://wa.me/84834193366" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- Header Social Links End -->
+          
+                          <!-- Header Btn Start -->
+                          <div class="header-btn">
+                            <!-- Toggle Button trigger modal Start -->
+                            <button
+                              class="btn btn-popup"
+                              type="button"
+                              data-bs-toggle="offcanvas"
+                              data-bs-target="#offcanvasRight"
+                              aria-controls="offcanvasRight"
+                            >
+                              <img src="./images/header-btn-dot.svg" alt="" />
+                            </button>
+                            <!-- Toggle Button trigger modal End -->
+          
+                            <!-- Header Sidebar Start -->
+                            <div
+                              class="offcanvas offcanvas-end"
+                              tabindex="-1"
+                              id="offcanvasRight"
+                            >
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                              ></button>
+          
+                              <div class="offcanvas-body">
+                                <!-- Header Contact Box Start -->
+                                <div class="header-contact-box">
+                                  <div class="icon-box">
+                                    <img src="./images/icon-phone-accent.svg" alt="" />
+                                  </div>
+                                  <div class="header-contact-box-content">
+                                    <h3>phone</h3>
+                                    <p>+84 83 419 33 66</p>
+                                  </div>
                                 </div>
-                                <!-- Header Sidebar End -->
+                                <!-- Header Contact Box End -->
+          
+                                <!-- Header Contact Box Start -->
+                                <div class="header-contact-box">
+                                  <div class="icon-box">
+                                    <img src="./images/icon-mail-accent.svg" alt="" />
+                                  </div>
+                                  <div class="header-contact-box-content">
+                                    <h3>email</h3>
+                                    <p>agencyzumy@gmail.com</p>
+                                  </div>
+                                </div>
+                                <!-- Header Contact Box End -->
+          
+                                <!-- Header Contact Box Start -->
+                                <div class="header-contact-box">
+                                  <div class="icon-box">
+                                    <img src="./images/icon-location-accent.svg" alt="" />
+                                  </div>
+                                  <div class="header-contact-box-content">
+                                    <h3>address</h3>
+                                    <p>
+                                      Ha Noi, Viet Nam
+                                    </p>
+                                  </div>
+                                </div>
+                                <!-- Header Contact Box End -->
+          
+                                <!-- Header Social Links Start -->
+                                <div class="header-social-links sidebar-social-links">
+                                  <h3>stay connected</h3>
+                                  <ul>
+                                    <li>
+                                      <a href="https://t.me/zumyagency97" target="_blank"
+                                        ><i class="fa-brands fa-brands fa-telegram"></i
+                                      ></a>
+                                    </li>
+                                    <li>
+                                      <a href="#"
+                                        ><i class="fa-brands fa-facebook-f"></i
+                                      ></a>
+                                    </li>
+                                    <li>
+                                      <a href="https://wa.me/84834193366"
+                                        ><i class="fa-brands fa-whatsapp"></i
+                                      ></a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- Header Social Links End -->
+                              </div>
                             </div>
-                            <!-- Header Btn End -->
-                        </div>     
-                        <!-- Header Social Box End -->                   
-					</div>
+                            <!-- Header Sidebar End -->
+                          </div>
+          
+                          <!-- Header Btn End -->
+                        </div>
+                        <!-- Header Social Box End -->
+                      </div>
 					<!-- Main Menu End -->
 					<div class="navbar-toggle"></div>
 				</div>
@@ -196,31 +234,43 @@
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Facebook Advertising Service</span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Facebook Agency Ads Accounts for rent</span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Google Shopping Ads Management Service
+                </span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Google Ads Agency Account for Rent</span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Microsoft Advertising Service</span
+              >
             </div>
-
+    
             <div class="scrolling-content">
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Facebook Advertising Service</span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Facebook Agency Ads Accounts for rent</span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Google Shopping Ads Management Service
+                </span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Google Ads Agency Account for Rent</span
+              >
+              <span
+                ><img src="images/asterisk-icon.svg" alt="" />Microsoft Advertising Service</span
+              >
             </div>
-        </div>
+          </div>
         <!-- Scrolling Ticker End -->
     </div>
     <!-- Scrolling Ticker Section End --> 
@@ -235,8 +285,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Contact us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Reach out and <span>start your</span> journey today</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Connect with us to bring your ideas to life through innovative designs and creative solutions tailored to your vision.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Reach out and <span>start your</span> ADS today</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Connect with us to bring your product globle through our advance ADS service.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -247,14 +297,14 @@
                                 <!-- Contact Info Item Start -->
                                 <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
                                     <h3>Contact us:</h3>
-                                    <p><a href="tel:+123456789">+123 456 789</a></p>
+                                    <p><a href="tel:+84834193366">+84 83 419 33 66</a></p>
                                 </div>
                                 <!-- Contact Info Item End -->
                                 
                                 <!-- Contact Info Item Start -->
                                 <div class="contact-info-item wow fadeInUp" data-wow-delay="0.6s">
                                     <h3>E-mail address:</h3>
-                                    <p><a href="#">info@domain.com</a></p>
+                                    <p><a href="mailto:agencyzumy@gmail.com">agencyzumy@gmail.com</a></p>
                                 </div>
                                 <!-- Contact Info Item End -->
                             </div>
@@ -265,7 +315,7 @@
                                 <h3>follow us:</h3>
                                 <ul>
                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-brands fa-telegram"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
                                 </ul>
@@ -331,22 +381,6 @@
     </div>
     <!-- Page Contact Us End -->
 
-    <!-- Google Map Section Start -->
-    <div class="google-map">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Google Map IFrame Start -->
-                    <div class="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <!-- Google Map IFrame End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Google Map Section End -->
-
     <!-- Footer Start -->
     <footer class="main-footer">
         <!-- Let's Work Together start -->
@@ -364,7 +398,7 @@
                             
                             <!-- Work Together Btn Start -->
                             <div class="work-together-btn">
-                                <a href="contact.html">
+                                <a href="https://t.me/zumyagency97">
                                     <img src="images/arrow-dark.svg" alt="">
                                     <span>Get in Touch</span>
                                 </a>
@@ -416,12 +450,25 @@
                             <div class="footer-links-box">
                                 <!-- Footer Contact List Start -->
                                 <div class="footer-contact-list">
-                                    <ul>
-                                        <li><a href="tel:+123456789"><img src="images/icon-phone-accent.svg" alt="">+123 456 789</a></li>
-                                        <li><a href="#"><img src="images/icon-mail-accent.svg" alt="">info@gmail.com</a></li>
-                                        <li><img src="images/icon-location-accent.svg" alt="">Lane London 1AA</li>
-                                    </ul>
-                                </div>
+                                <ul>
+                                    <li style="width: calc(30% - 30px);">
+                                        <img src="images/icon-phone-accent.svg" alt="" /></a
+                                        >
+                                        <a>+84 83 419 33 66</a>
+                                    </li>
+                                    <li style="width: calc(40% - 40px);">
+                                        <img src="images/icon-mail-accent.svg" alt=""/>
+                                        <a>agencyzumy@gmail.com</a>
+                                    </li>
+                                    <li style="width: calc(30% - 30px);">
+                                        <img
+                                        src="images/icon-location-accent.svg"
+                                        alt=""
+                                        />
+                                        <a>Ha Noi, Viet Nam</a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <!-- Footer Contact List End -->
 
                                 <!-- Footer Link List Start -->
@@ -453,8 +500,8 @@
                                         <h3>Our social media</h3>
                                         <ul>
                                             <li><a href="#"><i class="fa-brands fa-pinterest-p"></i>pinterest</a></li>
-                                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i>twitter</a></li>
-                                            <li><a href="#"><i class="fa-brands fa-instagram"></i>instagram</a></li>
+                                            <li><a href="#"><i class="fa-brands fa-brands fa-telegram"></i>Telegram</a></li>
+                                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i>instagram</a></li>
                                         </ul>
                                     </div>
                                     <!-- Footer Links End -->

@@ -3213,7 +3213,6 @@ body:has(.offcanvas){
 
 .footer-contact-list ul li{
 	position: relative;
-	width: calc(33.33% - 33.33px);
 	font-size: 22px;
 	color: var(--primary-color);
 	display: flex;
